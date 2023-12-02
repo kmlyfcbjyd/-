@@ -143,9 +143,9 @@ end)
 
 About = Window:Tab("关于")
 
-About:Label("作者：纳西妲")
+About:Label("作者：猫王")
 
-About:Button("复制群聊链接", function()
+About:Button("复制群号", 935143896()
     setclipboard("http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=7uzCscusQdIUR246UfEUgvYRQgqMvY8X&authKey=JsLdw8EvfQKT%2FULdN3kAeG4rLKwXf3dzYkpm%2FwpI7sfS5IcagoxmWN5WJyIZAOeR&noverify=0&group_code=109753441")
 end)
 
